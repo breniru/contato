@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.imgCont {
+    text-align: center;
+}
+
+.containerNome, .containerEmpresa, .containerEmail, .caixaSobrenome{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 7px;
+   margin: auto;
+   margin-left: 22px;
+}
+
+.cabecalho{
+text-align: center;
+}
+
+
+
+.centralizar {
+    display: flex;
+   justify-content: center;
+}
+
+.comboBox {
+    text-align: center;
+}

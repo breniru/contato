@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListContato</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="cabecalho">
+            <div class="textRodape">
+                <h1>Criar contato</h1>
+            </div>
+
+            <div class="btnSalvar">
+                <input type="submit" class="salvar" onclick="salvarContato();" value="Salvar" />
+            </div>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <div class="imgCont">
+            <i class="fa-solid fa-camera" style="color: #0f69b8;"></i>
+        </div>
+
+        <div class="containerNome">
+            <div>
+                <i class="fa-regular fa-user" style="color: #0f69b8;"></i>
+            </div>
+
+            <div class="caixaNome">
+                <input type="text" id="idNome" class="nome" placeholder="Nome">
+            </div>
+        </div>
+
+        <div class="caixaSobrenome">
+            <input type="text" id="idSobrenome" class="sobrenome" placeholder="Sobrenome">
+        </div>
+
+        <div class="containerEmpresa">
+            <div>
+                <i class="fa-solid fa-building" style="color: #0f69b8;"></i>
+            </div>
+
+            <div class=" caixaEmpresa">
+                    <input type="text" id="idEmpresa" class="empresa" placeholder="Empresa">
+            </div>
+
+
+        </div>
+
+        <div class="centralizar">
+
+            <div>
+                <i class="fa-solid fa-phone" style="color: #0f69b8;"></i>
+            </div>
+
+            <div class="caixaEmpresa">
+                <input type="tel" id="idTelefone" class="telefone" placeholder="Telefone">
+            </div>
+        </div>
+        <div class="comboBox">
+            <select name="Marcador">
+                <option value="ceulular">Celular</option>
+                <option value="fixo">fixo</option>
+                <option value="fax">Fax</option>
+            </select>
+        </div>
+
+        <div class="containerEmail">
+            <div>
+                <i class="fa-solid fa-envelope" style="color: #0f69b8;"></i>
+            </div>
+
+            <div class="caixaEmail">
+                <input type="email" id="idEmail" class="email" placeholder="E-mail">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://kit.fontawesome.com/7e25f41fb5.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    </script>
+</body>
+
+</html>
